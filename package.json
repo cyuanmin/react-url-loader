@@ -1,0 +1,54 @@
+{
+  "name": "react-url-loader",
+  "version": "1.0.0",
+  "description": "Example to load URL resources",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel dev test",
+    "dev": "./node_modules/.bin/webpack-dev-server",
+    "build": "webpack",
+    "test": "mocha --watch --reporter spec --compilers ts:ts-node/register ./src/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyuanmin/react-url-loader.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Yuanming Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyuanmin/react-url-loader/issues"
+  },
+  "homepage": "https://github.com/cyuanmin/react-url-loader#readme",
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/history": "^4.6.1",
+    "@types/mocha": "^2.2.43",
+    "@types/react": "^16.0.15",
+    "@types/react-dom": "^16.0.2",
+    "@types/react-router-dom": "^4.0.8",
+    "awesome-typescript-loader": "^3.2.3",
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "mocha": "^4.0.1",
+    "npm-run-all": "^4.1.1",
+    "source-map-loader": "^0.2.2",
+    "style-loader": "^0.19.0",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.7.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.5.3",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
