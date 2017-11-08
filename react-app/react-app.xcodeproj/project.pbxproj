@@ -12,6 +12,7 @@
 		BFEB18291FB391EC00CBFAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEB18271FB391EC00CBFAE0 /* Main.storyboard */; };
 		BFEB182B1FB391EC00CBFAE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEB182A1FB391EC00CBFAE0 /* Assets.xcassets */; };
 		BFEB182E1FB391EC00CBFAE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEB182C1FB391EC00CBFAE0 /* LaunchScreen.storyboard */; };
+		BFEB18371FB394CE00CBFAE0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEB18361FB3947F00CBFAE0 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BFEB182A1FB391EC00CBFAE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFEB182D1FB391EC00CBFAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFEB182F1FB391EC00CBFAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFEB18361FB3947F00CBFAE0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEB18371FB394CE00CBFAE0 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				BFEB18221FB391EC00CBFAE0 /* react-app */,
 				BFEB18211FB391EC00CBFAE0 /* Products */,
+				BFEB18351FB3947E00CBFAE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				BFEB182F1FB391EC00CBFAE0 /* Info.plist */,
 			);
 			path = "react-app";
+			sourceTree = "<group>";
+		};
+		BFEB18351FB3947E00CBFAE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB18361FB3947F00CBFAE0 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
