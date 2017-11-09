@@ -22,12 +22,32 @@ interface IHelloState {
 }
 
 export class Hello extends React.Component<IHelloProps, IHelloState>{
+
+    private timer: NodeJS.Timer;
     constructor(props: IHelloProps){
         super(props);
         this.state = {
             blob: null,
             info: "before initialize"
         };
+
+        this.timer = setInterval(() => {
+            this.setState({
+              info : new Date().toLocaleString()
+            })
+          },1000);
+
+          this.loadImageAsync();
+    }
+
+    async loadImageAsync(){
+        const response = await fetch(this.props.imageUrl);
+        const blob = await response.blob();
+        clearInterval(this.timer);
+        this.setState({
+            info: "image done. Image size=" + blob.size + ", type=" + blob.type,
+            blob: blob
+        })
     }
 
     render() {
