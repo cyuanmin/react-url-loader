@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF6A97621FB3D1A700FC4068 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = BF6A97611FB3D1A700FC4068 /* dist */; };
 		BFEB18241FB391EC00CBFAE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB18231FB391EC00CBFAE0 /* AppDelegate.swift */; };
 		BFEB18261FB391EC00CBFAE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB18251FB391EC00CBFAE0 /* ViewController.swift */; };
 		BFEB18291FB391EC00CBFAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEB18271FB391EC00CBFAE0 /* Main.storyboard */; };
 		BFEB182B1FB391EC00CBFAE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEB182A1FB391EC00CBFAE0 /* Assets.xcassets */; };
 		BFEB182E1FB391EC00CBFAE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEB182C1FB391EC00CBFAE0 /* LaunchScreen.storyboard */; };
 		BFEB18371FB394CE00CBFAE0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEB18361FB3947F00CBFAE0 /* WebKit.framework */; };
-		BFEB18391FB3AA1800CBFAE0 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = BFEB18381FB3AA1700CBFAE0 /* index.html */; };
+		BFEB183E1FB3CE7F00CBFAE0 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = BFEB183B1FB3CE7F00CBFAE0 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF6A97611FB3D1A700FC4068 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ../../dist; sourceTree = "<group>"; };
 		BFEB18201FB391EC00CBFAE0 /* react-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEB18231FB391EC00CBFAE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFEB18251FB391EC00CBFAE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +27,7 @@
 		BFEB182D1FB391EC00CBFAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFEB182F1FB391EC00CBFAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFEB18361FB3947F00CBFAE0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		BFEB18381FB3AA1700CBFAE0 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../index.html; sourceTree = "<group>"; };
+		BFEB183B1FB3CE7F00CBFAE0 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,12 @@
 		BFEB18221FB391EC00CBFAE0 /* react-app */ = {
 			isa = PBXGroup;
 			children = (
-				BFEB18381FB3AA1700CBFAE0 /* index.html */,
+				BF6A97611FB3D1A700FC4068 /* dist */,
 				BFEB18231FB391EC00CBFAE0 /* AppDelegate.swift */,
 				BFEB18251FB391EC00CBFAE0 /* ViewController.swift */,
 				BFEB18271FB391EC00CBFAE0 /* Main.storyboard */,
 				BFEB182A1FB391EC00CBFAE0 /* Assets.xcassets */,
+				BFEB183B1FB3CE7F00CBFAE0 /* index.html */,
 				BFEB182C1FB391EC00CBFAE0 /* LaunchScreen.storyboard */,
 				BFEB182F1FB391EC00CBFAE0 /* Info.plist */,
 			);
@@ -138,8 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEB183E1FB3CE7F00CBFAE0 /* index.html in Resources */,
 				BFEB182E1FB391EC00CBFAE0 /* LaunchScreen.storyboard in Resources */,
-				BFEB18391FB3AA1800CBFAE0 /* index.html in Resources */,
+				BF6A97621FB3D1A700FC4068 /* dist in Resources */,
 				BFEB182B1FB391EC00CBFAE0 /* Assets.xcassets in Resources */,
 				BFEB18291FB391EC00CBFAE0 /* Main.storyboard in Resources */,
 			);
